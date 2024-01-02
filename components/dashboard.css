@@ -1,0 +1,49 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+ 
+  td {
+    padding: 10px;
+  }
+
+  td button {
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  td button.favorite {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  td button.edit {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
+  td button.delete {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+
+.centered {
+    text-align: center;
+}
